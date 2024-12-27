@@ -86,3 +86,41 @@ body {
   border-radius: 10px;
   cursor: pointer;
 }
+
+.info {
+  text-align: center;
+  padding: 50px 0px;
+}
+
+.info-header {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 900px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-img {
+  border: 3px solid #3882F6;
+  border-radius: 10px;
+  height: 150px;
+  width: 150px;
+}
+
+.card-text {
+  width: 150px;
+}
