@@ -10,6 +10,8 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+/* Header & Hero Styling */
+
 .header {
   background-color: #1F2937;
   color: #F9FAF8;
@@ -87,6 +89,8 @@ body {
   cursor: pointer;
 }
 
+/* Information Section Styling */
+
 .info {
   text-align: center;
   padding: 50px 0px;
@@ -123,4 +127,35 @@ body {
 
 .card-text {
   width: 150px;
+}
+
+/* Quote Section Styling */
+
+.quote-section {
+  background-color: #E5E7EB;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  max-width: 1000px;
+  gap: 10px;
+  padding: 50px 0px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+  font-family: 'light italic';
+}
+
+.quote-attr {
+  font-size: 18px;
+  font-weight: 900;
+  align-self: flex-end;
+  padding-right: 40px;
 }
